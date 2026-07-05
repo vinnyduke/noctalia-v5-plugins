@@ -1,0 +1,16 @@
+{
+  "name": "Bitwarden pour Launcher",
+  "description": "Recherche dans le coffre Bitwarden via rbw CLI",
+  "vault_locked_title": "Coffre verrouillé",
+  "vault_locked_subtitle": "Sélectionnez pour déverrouiller via PIN / polkit",
+  "no_rbw_title": "rbw introuvable",
+  "no_rbw_subtitle": "Installez rbw pour utiliser ce plugin",
+  "status_category": "Statut",
+  "notif_title": "RBW",
+  "password_copied": "Mot de passe copié pour {name}",
+  "username_copied": "Nom d'utilisateur copié pour {name}",
+  "totp_copied": "TOTP copié pour {name}",
+  "label_password": "Mot de passe",
+  "label_username": "Identifiant",
+  "label_totp": "TOTP"
+}

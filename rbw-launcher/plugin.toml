@@ -1,0 +1,24 @@
+id = "vinnyduke/rbw-launcher"
+name = "Bitwarden"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "vinnyduke"
+license = "MIT"
+dependencies = []
+tags = ["bitwarden", "rbw", "password", "launcher"]
+icon = "lock"
+description = "Search Bitwarden vault entries via rbw CLI"
+
+[[launcher_provider]]
+id = "search"
+entry = "launcher.luau"
+glyph = "key"
+prefix = "/rbw"
+
+[[launcher_provider.category]]
+label = "Bitwarden"
+glyph = "key"
+
+[[launcher_provider.category]]
+label = "Status"
+glyph = "warning"

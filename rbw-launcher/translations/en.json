@@ -1,0 +1,16 @@
+{
+  "name": "Bitwarden Launcher Provider",
+  "description": "Search Bitwarden vault entries via rbw CLI",
+  "vault_locked_title": "Vault locked",
+  "vault_locked_subtitle": "Select to unlock via PIN / polkit",
+  "no_rbw_title": "rbw not found",
+  "no_rbw_subtitle": "Install rbw to use this plugin",
+  "status_category": "Status",
+  "notif_title": "RBW",
+  "password_copied": "Password copied for {name}",
+  "username_copied": "Username copied for {name}",
+  "totp_copied": "TOTP copied for {name}",
+  "label_password": "Password",
+  "label_username": "Username",
+  "label_totp": "TOTP"
+}
