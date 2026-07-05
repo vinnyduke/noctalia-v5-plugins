@@ -1,0 +1,23 @@
+name: validate
+
+on: [push, pull_request]
+
+jobs:
+  luau:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Luau
+        run: |
+          curl -sL "https://github.com/Roblox/luau/releases/latest/download/luau-ubuntu-x86_64.zip" -o /tmp/luau.zip
+          sudo unzip /tmp/luau.zip -d /usr/local/bin/ luau-analyze
+          rm /tmp/luau.zip
+      - name: Check rbw-launcher
+        run: luau-analyze --defs noctalia.d.luau rbw-launcher/launcher.luau
+      - name: Check deepseek-monitor (if present)
+        run: |
+          if [ -d deepseek-monitor ]; then
+            luau-analyze --defs noctalia.d.luau deepseek-monitor/service.luau
+            luau-analyze --defs noctalia.d.luau deepseek-monitor/panel.luau
+            luau-analyze --defs noctalia.d.luau deepseek-monitor/widget.luau
+          fi
