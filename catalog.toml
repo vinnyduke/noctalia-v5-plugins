@@ -1,5 +1,16 @@
 # Auto-generated. Do not edit manually.
 [[plugin]]
+id = "vinnyduke/deepseek-monitor"
+name = "DeepSeek Monitor"
+version = "1.0.0"
+author = "vinnyduke"
+license = "MIT"
+icon = "cpu"
+description = "Monitor and switch between DeepSeek router modes (direct/opencode). Shows service status, request counters, and subagent thinking toggle."
+min_noctalia = "5.0.0"
+tags = ["deepseek", "ai", "monitor", "router"]
+
+[[plugin]]
 id = "vinnyduke/rbw-launcher"
 name = "Bitwarden Launcher Provider"
 version = "1.0.0"
