@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Noctalia](https://img.shields.io/badge/Noctalia-5.0+-blue)](https://noctalia.dev)
-[![CI](https://github.com/vinnyduke/noctalia-v5-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/vinnyduke/noctalia-v5-plugins/actions/workflows/validate.yml)
 
 Plugin monorepo for [Noctalia 5+](https://noctalia.dev). Each subdirectory is a plugin loaded directly from source — no build step.
 
